@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Beauty Product | Ecommerce Website Design </title>
+        <link rel="stylesheet" href="style.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+<!---------------------------------------------- header---------------------------------------------->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.jpg" alt="Beauty product" width=125px></a>
+                </div>
+    
+<!-----------------------------------------------menu-------------------------------------------------->
+                 <nav> 
+                    <ul id="MenuItems"><!--use this id in js-->                   
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" alt="cart" width=30px height=30px></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+<!---------------------------------- header class container--------------------------------------------->
+
+            <div class="row">
+                <div class="col-2">
+                    <h1> WELCOME TO NATURE BEAUTY </h1>
+                    <h1>Best product <span class="change_content"> </span></h1>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+
+                <div class="col-2">
+                    <img src="images/picture.jpeg" alt="header image">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-----------------------------------Featured categories------------------------------------------------>
+
+    <div class="categories">
+        <div class="categories">
+    <div class="small-container">
+        <div class="row">
+        <div class="col-3">
+            <img src="images/categories-1.jpg">
+        </div>
+        <div class="col-3">
+            <img src="images/categories-2.jfif">
+        </div>
+        <div class="col-3">
+            <img src="images/categories-3.jfif">
+        </div>
+
+    </div>
+    </div>
+
+<!---------------------------------Featured Products---------------------------------------------------->
+
+     <div class="small container">
+        <h2 class="title">Featured Products</h2>
+         <div class="row">
+             <div class="col-4">
+                 <a href="product-detail.html"><img src="images/product-1.png"></a>
+                 <a href="product-detail.html"><h4>kumkumadi brightening ayurvedic face scrub</h4></a>
+                 <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                 </div>
+                 <p>₹945.00 *inclusive all taxes </p><!--product price-->
+             </div>
+
+             <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4>Vedix Customised Ayurvedic Hair Care Regimen</h4>
+                <div class="rating">
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹999.00 *inclusive all taxes</p><!--product price-->
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-3.jpg">
+                <h4>Vitamin C Foaming Face Wash with Vitamin C and Turmeric for Skin Illumination - 150ml</h4>
+                <div class="rating">
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹399.00 *inclusive all taxes</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Hair Fall Control Kit</h4>
+                <div class="rating">
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                </div>
+                <p>₹999.00 *inclusive all taxes</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-5.jpg">
+                <h4>Vitamin C Face Toner For Pigmentation And Dark Spots Removal</h4>
+                <div class="rating">
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                </div>
+                <p>₹ 650.00 *inclusive all taxes </p>
+            </div>
+             <div class="col-4">
+                <img src="images/product-3.jpg">
+                <h4>Vitamin C Foaming Face Wash with Vitamin C and Turmeric for Skin Illumination - 150ml</h4>
+                <div class="rating">
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹399.00 *inclusive all taxes</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Hair Fall Control Kit</h4>
+                <div class="rating">
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                </div>
+                <p>₹999.00 *inclusive all taxes</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-5.jpg">
+                <h4>Vitamin C Face Toner For Pigmentation And Dark Spots Removal</h4>
+                <div class="rating">
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                </div>
+                <p>₹ 650.00 *inclusive all taxes </p>
+            </div>
+
+         </div>
+<!-- ------------------------------------------latest product-------------------------------------------->
+         <h2 class="title">Latest Products</h2>
+         <div class="row">
+             <div class="col-4">
+                 <img src="images/product-4.jpg">
+                 <h4><a href="product-detail.html">Hair Fall Control Kit</a></h4>
+                 <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                 </div>
+                 <p>₹999.00 *inclusive all taxes</p>
+             </div>
+
+             <div class="col-4">
+                <img src="images/product-6.jpg">
+                <h4>Vitamin C face wash with brush + Vitamin C clay mask + Vitamin C toner + Vitamin C serum - Get That Glow Kit with Vitamin C, Lemon, Orange, Jojoba oils, Ferulic Acid, and Aloe Vera Extracts</h4>
+                <div class="rating">
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹1599.00 *inclusive all taxes</p>
+                 </div>
+
+             <div class="col-4">
+                <img src="images/product-7.jpg">
+                <h4>Vitamin C Face Serum - Skin Clearing Serum - Brightening, Anti-Aging Skin Repair, Supercharged Face Serum, Dark Circle, Fine Line & Sun Damage Corrector, Genuine 20% - 30 ml</h4>
+                <div class="rating">
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹599.00 *inclusive all taxes</p>
+              </div>
+
+             <div class="col-4">
+                <img src="images/product-8.jpg">
+                <h4>Radiant skin gummies</h4>
+                <div class="rating">
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+                </div>
+                <p>₹940.00 *inclusive all taxes</p>
+              </div>
+         </div>    
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.png">
+                <h4>SkinKraft - India’s Only Customized Skincare Regimen</h4>
+                <div class="rating">
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star" aria-hidden="true"></i>
+                   <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹999.00 *inclusive all taxes</p>
+            </div>
+
+            <div class="col-4">
+               <img src="images/product-10.jpg">
+               <h4>Root Deep Hydroil</h4>
+               <div class="rating">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+               </div>
+               <p>₹2999.00 *inclusive all taxes</p>
+           </div>
+
+           <div class="col-4">
+               <img src="images/product-11.jpg">
+               <h4>Essential Anti-Hair Fall Kit</h4>
+               <div class="rating">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+               </div>
+               <p>₹1299.00 *inclusive all taxes</p>
+           </div>
+           <div class="col-4">
+               <img src="images/product-11.jpg">
+               <h4>Essential Anti-Hair Fall Kit</h4>
+               <div class="rating">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+               </div>
+               <p>₹1299.00 *inclusive all taxes</p>
+           </div>
+
+           
+        </div>
+
+    </div>
+
+    <!--offer-->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                
+                <div class="col-2">
+                   <img src="images/exclusively.png" class="offer-img"> 
+                </div>
+
+                <div class="col-2">
+                    <p>Exclusively Avaliable on Beauty product</p>
+                    <h1>The mini skincare gift box</h1>
+                    <small>
+                       Bring in the festivities by indulging in the goodness of pure, time-tested Ayurvedic beauty treatments. Our customised mini skincare box is a perfect gift for natural skincare enthusiasts.<br>
+                    </small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------testimonials-------------->
+
+    <div class="testimonial">
+        <div class="small container">
+            <div class="row">
+                <!--3 comments-->
+                <div class="col-3">
+
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the prinitng and typesetting industry. Lorem Ipsum has been the industry;s standard dummy text ever
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                     </div>
+                     <img src="images/user-1.png">
+                     <h3>Sean Parker</h3>
+   
+                </div>
+
+                <div class="col-3">
+                    
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the prinitng and typesetting industry. Lorem Ipsum has been the industry;s standard dummy text ever
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                     </div>
+                     <img src="images/user-2.png">
+                     <h3>Mike Smith</h3>
+   
+                </div>
+
+                <div class="col-3">
+
+                 
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the prinitng and typesetting industry. Lorem Ipsum has been the industry;s standard dummy text ever
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                     </div>
+                     <img src="images/user-3.png">
+                     <h3>Mable Joe</h3>
+   
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------brands-------------->
+
+    <div class="brands">
+        <div class="small container">
+            <div class="row">
+                <div class="col-5">
+                     <img src="images/logo-godrej.png">
+                </div>
+
+                <div class="col-5">
+                    <img src="images/logo-oppo.png">
+               </div>
+
+
+               <div class="col-5">
+                <img src="images/logo-coca-cola.png">
+                </div>
+
+
+                <div class="col-5">
+                 <img src="images/logo-paypal.png">
+                </div>
+
+
+                 <div class="col-5">
+                   <img src="images/logo-philips.png">
+                </div>
+
+            </div>
+        </div>
+    </div>
+     
+    <!-------footer------->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>Download App for Android and iso mobile phone.</p>
+				<div class="app-logo">
+					<img src="images/play-store.png">
+					<img src="images/app-store.png">
+					
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<img src="images/logo.jpg">
+				<p>Our product is pure natural no chemical  are added</p>
+			</div>
+			<div class="footer-col-3">
+				<h3>useful links</h3>
+				<ul>
+					<li>coupons</li>
+					<li>Blog Post</li>
+					<li>Return policy</li>
+					<li>join Affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow Us</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instgram</li>
+					<li> <a href="">YouTube</a></li>
+				</ul>
+			</div>
+		</div>
+			<hr>
+			<p class="copyright">copyright 2021- Beauty product</p>
+	</div>
+	
+</div>
+    <!-----------------JS----------------------->
+    <script>
+  
+        
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle()
+        {
+            if (MenuItems.style.maxHeight =="0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px" 
+            }
+        
+        }
+    </script>    
+    
+    </body>
+
+</html>
